@@ -1,11 +1,4 @@
-# 🔐 Computer Network Security – Final Project
-
-### Penetration Testing & Defensive Security Lab
-VMware • Kali Linux • Nmap • Nessus • Hydra • Metasploit • Wireshark • IPTables • Snort 
-
----
-
-## 📌 About This Project
+# Computer Network Security – Final Project 🔐
 
 <p align="center">
   This project was developed for a Computer Network Security course and have two parts: 
