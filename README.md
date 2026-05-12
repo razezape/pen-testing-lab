@@ -19,37 +19,17 @@ The lab included 3 VMs:
 - Practiced password auditing and secure remote access.
 - Used Metasploit for controlled exploitation testing.
 - Monitored and analyzed network traffic with Wireshark.
-- Configured Snort IDS for intrusion detection.
+- Configured Snort IDS/IPS for intrusion detection and prevention detection.
 - Implemented IPTables firewall rules for attack mitigation.
 - Developed security recommendations and documented findings.
-
----
-
-# 🛠️ Tools Used
-
-| Tool | Purpose |
-|------|----------|
-| Nmap | Host discovery & service enumeration |
-| Nessus | Vulnerability scanning |
-| Hydra | SSH password cracking |
-| Medusa | Parallel authentication attacks |
-| Ncrack | Network authentication cracking |
-| Metasploit | Auxiliary SMTP testing |
-| Wireshark | Packet capture & analysis |
-| Snort | Intrusion Detection System |
-| SSH / SCP | Remote access & secure file transfer |
-
----
 
 # 🌐 Network Topology
 
 | Machine | Role | IP Address |
 |----------|------|-------------|
-| Kali Linux | Attacker | 172.16.0.11 |
-| SaturnaN | Vulnerable Target | 172.16.0.13 |
-| SaturnaR | IDS Sensor | 172.16.0.14 |
-
----
+| Kali Linux | Attacker | 172.X.X.11 |
+| SaturnaN | Vulnerable Target | 172.X.X.13 |
+| SaturnaR | IDS Sensor | 172.X.X.14 |
 
 # 🔎 Reconnaissance & Enumeration
 
