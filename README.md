@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>Computer Network Security – Lab Environment Project 🔐</h1>
+  <h1>Computer Network Security – Lab Environment Project </h1>
 </p>
 
 This project was developed for inside a controlled virtual lab environment and have two parts: 
