@@ -12,27 +12,16 @@ The lab included 3 VMs:
 - SaturnaN vulnerable target
 - SaturnaR IDS monitoring machine
 
-The objective was to:
-- perform reconnaissance and vulnerability scanning,
-- identify weaknesses,
-- execute password attacks,
-- analyze captured network traffic,
-- and configure intrusion detection with Snort.
-
----
-
 # 🧠 Topics Covered
-
-- Network Scanning
-- Service Enumeration
-- Vulnerability Analysis
-- Password Cracking
-- SSH Access
-- Secure File Transfer
-- Metasploit Auxiliary Modules
-- Wireshark Packet Analysis
-- Snort IDS Configuration
-- SMTP Traffic Monitoring
+- Performed a cybersecurity assessment on a simulated company network.
+- Conducted network scanning and service enumeration.
+- Analyzed vulnerabilities and tested system security.
+- Practiced password auditing and secure remote access.
+- Used Metasploit for controlled exploitation testing.
+- Monitored and analyzed network traffic with Wireshark.
+- Configured Snort IDS for intrusion detection.
+- Implemented IPTables firewall rules for attack mitigation.
+- Developed security recommendations and documented findings.
 
 ---
 
