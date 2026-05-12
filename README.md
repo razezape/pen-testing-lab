@@ -1,8 +1,9 @@
-# Computer Network Security – Final Project 🔐
-
 <p align="center">
-  This project was developed for a Computer Network Security course and have two parts: 
+  # Computer Network Security – Final Project 🔐
 </p>
+
+This project was developed for a Computer Network Security course and have two parts: 
+
 1) Penetration Testing
 2) Defense Strategies
 
