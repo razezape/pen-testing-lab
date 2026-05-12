@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>Computer Network Security – Final Project 🔐</h1>
+  <h1>Computer Network Security – Lab Environment Project 🔐</h1>
 </p>
 
 This project was developed for a Computer Network Security course and have two parts: 
