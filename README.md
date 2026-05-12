@@ -2,7 +2,7 @@
   <h1>Computer Network Security – Lab Environment Project </h1>
 </p>
 
-This project was developed for inside a controlled virtual lab environment and have two parts: 
+This project will be carried out using Kali as the attack machine and a virtual LAN (VLAN) designed to closely replicate the target network. The VLAN includes two Linux machines: <b>saturnaN</b> and 2) <b>saturnaR.</b> The project will be divided into two phases: 
 
 1) Penetration Testing
 2) Defense Strategies
