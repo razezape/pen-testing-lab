@@ -7,7 +7,13 @@
 
 ## 📌 About This Project
 
-This project was developed for a Computer Network Security course and focuses on both offensive and defensive cybersecurity practices inside a controlled virtual lab environment.
+<p align="center">
+  This project was developed for a Computer Network Security course and have two parts: 
+</p>
+1) Penetration Testing
+2) Defense Strategies
+
+practices inside a controlled virtual lab environment.
 
 The lab included:
 - 🐉 Kali Linux attacker machine
