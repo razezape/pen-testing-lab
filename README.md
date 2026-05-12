@@ -2,17 +2,15 @@
   <h1>Computer Network Security – Lab Environment Project 🔐</h1>
 </p>
 
-This project was developed for a Computer Network Security course and have two parts: 
+This project was developed for inside a controlled virtual lab environment and have two parts: 
 
 1) Penetration Testing
 2) Defense Strategies
 
-practices inside a controlled virtual lab environment.
-
-The lab included:
-- 🐉 Kali Linux attacker machine
-- 🖥️ SaturnaN vulnerable target
-- 🛡️ SaturnaR IDS monitoring machine
+The lab included 3 VMs:
+- Kali Linux attacker machine
+- SaturnaN vulnerable target
+- SaturnaR IDS monitoring machine
 
 The objective was to:
 - perform reconnaissance and vulnerability scanning,
