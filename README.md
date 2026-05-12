@@ -36,4 +36,4 @@ The lab included 3 VMs:
 Initial reconnaissance was performed using:
 
 ```bash
-sudo ifconfig
+sudo ifconfig - :)
