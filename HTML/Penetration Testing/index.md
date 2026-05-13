@@ -19,7 +19,7 @@
                 to identify active hosts in this network.
             </p>
         <figure>
-            <img src="../img/image10.png" alt="ifconfig" title="Intro" width="583"> 
+            <img src="../img/image10.png" align="center" alt="ifconfig" title="Intro" width="583"> 
         </figure>
         </section>
 <!---------------------------------------------------------------------------->
