@@ -19,9 +19,9 @@
                 to identify active hosts in this network.
             </p>
         <figure>
-            <p align="center">
+            <div align="center">
                 <img src="../img/image10.png" alt="ifconfig" title="Intro" width="583">
-            </p>
+            </div>
         </figure>
         </section>
 <!---------------------------------------------------------------------------->
