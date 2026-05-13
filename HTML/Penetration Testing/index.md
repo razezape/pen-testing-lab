@@ -2,8 +2,7 @@
 
 <html>
 <head>
-    <title>The PEN Test Report</title>
-    <h1 align="center">The Report</h1>
+    <h1 align="center">The PEN Test Report</h1>
 </head>
 <!---------------------------------------------------------------------------->
     <body>
