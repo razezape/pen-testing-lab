@@ -141,7 +141,6 @@
 <!---------------------------------------------------------------------------->
         <section>
             <h1 align="center">Exploitation</h1>
-        <hr>
             <p>
                 In this part of the project, I used three password-cracking tools<strong>—Ncrack, Medusa, <strong>and</strong> Hydra—</strong>against the SaturnaN host. But, before to do so I noticed there was unwanted “junk” content in the directory, which can cause a delay password testing so I cleaned it directly through the console.
             </p>
