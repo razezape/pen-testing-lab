@@ -20,7 +20,7 @@
             </p>
         <figure>
             <p align="center">
-            <img src="../img/image10.png" alt="ifconfig" title="Intro" width="583">
+                <img src="../img/image10.png" alt="ifconfig" title="Intro" width="583">
             </p>
         </figure>
         </section>
@@ -37,8 +37,10 @@
                 to determine whether a host is active. If a host responds, it is marked as “up”; otherwise, it is considered down or not included in the results.
             </p>
         <figure>
-            <img src="../img/image32.png" alt="Scan 1" title="Host #1" width="300">
-            <img src="../img/image13.png" alt="Scan 2" title="Host #2" width="300">
+            <p align="center">
+                <img src="../img/image32.png" alt="Scan 1" title="Host #1" width="300">
+                <img src="../img/image13.png" alt="Scan 2" title="Host #2" width="300">
+            </p>
         </figure>
         </section>
 <!---------------------------------------------------------------------------->
@@ -53,7 +55,9 @@
                 target systems. The resulting <b><em>network topology</em></b> is illustrated below.
             </p>
         <figure>
-            <img src="../img/image26.png" alt="Tapology" title="Tapology" width="500" height="300">
+            <p align="center">
+                <img src="../img/image26.png" alt="Tapology" title="Tapology" width="500" height="300">
+            </p>
         </figure>
         </section>
 <!---------------------------------------------------------------------------->
@@ -67,8 +71,10 @@
                 and identified their versions. 
             </p>
         <figure>
-            <img src="../img/image12.png" alt="Nessus" title="Nessus" width="250">
-            <img src="../img/image40.png" alt="Nessus" title="Nessus" width="250">
+            <p align="center">
+                <img src="../img/image12.png" alt="Nessus" title="Nessus" width="250">
+                <img src="../img/image40.png" alt="Nessus" title="Nessus" width="250">
+            </p>
         </figure>
             <p> 
                 Based on this scan results, 
@@ -91,8 +97,10 @@
                 about outdated services and the operating system. The usage of both tools provided me a more complete understanding of each host’s exposure and potential vulnerabilities for later assessment.  
             </p>
         <figure>
+            <p align="center">
                 <img src="../img/image51.png" alt="Results SaturnaN" title="SaturnaN" width="500">
                 <img src="../img/image33.png" alt="Results SaturnaR" title="SaturnaR" width="500">
+            </p>
         </figure>
         </section>
 <!---------------------------------------------------------------------------->
@@ -101,7 +109,9 @@
                 In the following section, I will further explain why I selected these upcoming services from these VMs that I considered highly vulnerable, as they increase the chances of successfully carrying out a more effective exploit. 
             </p>
         <figure>
-            <img src="../img/image28.png" alt="Vulnerabilities" title="Nessus Scan Results" width="500" height="100"> 
+            <p align="center">
+                <img src="../img/image28.png" alt="Vulnerabilities" title="Nessus Scan Results" width="500" height="100">
+            </p>
         </figure>
         </section>
 <!---------------------------------------------------------------------------->
@@ -147,7 +157,9 @@
                 <li><strong>mv</strong> clean.txt /home/kali/Desktop/xxx.pwd</li>
             </ul>
         <figure>
-            <img src="../img/image6.png" alt="mv" title="mv command" width="300">
+            <p align="center">
+                <img src="../img/image6.png" alt="mv" title="mv command" width="300">
+            </p>
         </figure>
             <p>
                 Once we had our file cleaned I started using our cracking tools where I tested access using a sample account associated with Ms. Beate Dietrich, leveraging common <strong>credential and username conventions</strong> (e.g., jdoe/password) to streamline authentication testing.
@@ -157,19 +169,25 @@
                 <li><strong>medusa</strong> -u bdietrich -P /home/kali/Desktop/xxx.pwd -h 172.xxx.xxx.13 -M ssh -t 10</li>
             </ul>
         <figure>
-            <img src="../img/image15.png" alt="ncrack & medusa" title="command" width="450">
+            <p align="center">
+                <img src="../img/image15.png" alt="ncrack & medusa" title="command" width="450">
+            </p>
         </figure>
             <ul>
                 <li><strong>hydra</strong> -l bdietrich -P /home/kali/Desktop/xxx.pwd 172.xxx.xxx.13 ssh -t 10</li>
             </ul>
         <figure>
-            <img src="../img/image29.png" alt="hydra" title="command" width="450">
+            <p align="center">
+                <img src="../img/image29.png" alt="hydra" title="command" width="450">
+            </p>
         </figure>
             <p>
                 All <strong>three tools</strong> successfully identified the credentials but showed different performance. <b>Ncrack</b> delayed its output, likely to prioritize efficiency, while <b>Medusa</b> and <b>Hydra</b> provided <strong>real-time progress updates</strong>. After increasing parallel attempts with <b>`-t 4`</b>, all tools reached the same result, though Hydra stood out for its faster simultaneous attempts and clearer output. The credentials for `bdietrich` were successfully identified as `xxx`.
             </p>
         <figure>
-            <img src="../img/image14.png" alt="output" title="results" width="450">
+            <p align="center">
+                <img src="../img/image14.png" alt="output" title="results" width="450">
+            </p>
         </figure>
         </section>
 <!---------------------------------------------------------------------------->
@@ -187,14 +205,18 @@
                 After gaining access, I used the <strong>`ls -la`</strong> command to examine the system’s directories and files. This command lists all files, including <strong>hidden files</strong>, in a detailed format displaying permissions, link counts, ownership details, file sizes, modification dates, and file names. The main objective of this <strong>educational project</strong> stage was to access the private network, identify sensitive company data, and retrieve fictional account credentials and financial information stored within the target files.
             </p>
         <figure>
-            <img src="../img/image3.png" alt="ls" title="ls -la first" width="455">
+            <p align="center">
+                <img src="../img/image3.png" alt="ls" title="ls -la first" width="455">
+            </p>
         </figure>
             <p>
                 To securely download and inspect the target file, I used the <strong>scp</strong> command, which enables encrypted file transfers between remote systems over SSH. This allowed me to retrieve the file from the remote host for further analysis within the lab environment.
             </p>
         <figure>
-            <img src="../img/image22.png" alt="scp" title="scp command" width="455">
-            <img src="../img/image30.png" alt="pdf" title="saturna info" width="455">
+            <p align="center">
+                <img src="../img/image22.png" alt="scp" title="scp command" width="455">
+                <img src="../img/image30.png" alt="pdf" title="saturna info" width="455">
+            </p>
         </figure>
         </section>
 
