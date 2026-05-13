@@ -27,7 +27,6 @@
         <section>
             <h1 align="center">Scanning</h1>
             <h3 align="center">Vulnerability Assesment + Port Scanning</h3>
-        <hr>
             <p>
                 When given a range of
                 <strong>IP addresses</strong>
@@ -116,7 +115,6 @@
                 For this first vulnerability I selected, the service running on port #22 SSH is hosted on a system using Ubuntu 12.04.x OS distro from linux. It is no longer supported by Canonical since 2017, it does not receive security updates or patches. This increases the risk that known vulnerabilities affecting core system components remain unpatched and exploitable by attackers. As a result, this could potentially allow unauthorized access, privilege escalation, or remote code execution. The recommended solution is to upgrade the system to a currently supported version of Ubuntu.
             </p>
         <br>
-        <hr>
             <h4><strong>2. CRITICAL: 172.xxx.xxx.13 - SaturnaN</strong></h4>
             <ul>
                 <li><b>Port:</b> #25, #993 and #995</li>
@@ -127,7 +125,6 @@
                 In this case, the issue appears to be that the system is using outdated encryption protocols such as SSL 2.0 or SSL 3.0. These legacy versions contain numerous security weaknesses and cryptographic flaws, including insecure padding schemes in CBC ciphers and vulnerabilities in session renegotiation. Such weaknesses can be exploited by attackers to perform Man-in-the-Middle (MITM) attacks, allowing them to intercept, manipulate, or decrypt communications between affected services. Because these protocols are no longer considered secure, they have been replaced by Transport Layer Security (TLS), which provides stronger encryption, improved authentication mechanisms, and protection against known cryptographic attacks.
             </p>
         <br>
-        <hr>
             <h4><strong>3. CRITICAL: 172.xxx.xxx.14 - SaturnaR</strong></h4>
             <ul>
                 <li><b>Port:</b> #22</li>
@@ -177,7 +174,6 @@
 <!---------------------------------------------------------------------------->
         <section>
             <h1 align="center">Post-Exploitation</h1>
-        <hr>
             <p>
                 Once the password is known, I was able to remotely access the target machine through my attacker machine using the following command line.
             </p>
