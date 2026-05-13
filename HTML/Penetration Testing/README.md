@@ -169,7 +169,7 @@
             </ul>
         <figure>
             <div align="center">
-                <img src="../img/image15.png" alt="ncrack & medusa" title="command" width="450">
+                <img src="../img/image15.png" alt="ncrack & medusa" title="command" width="500">
             </div>
         </figure>
             <ul>
@@ -177,7 +177,7 @@
             </ul>
         <figure>
             <div align="center">
-                <img src="../img/image29.png" alt="hydra" title="command" width="450">
+                <img src="../img/image29.png" alt="hydra" title="command" width="500">
             </div>
         </figure>
             <p>
