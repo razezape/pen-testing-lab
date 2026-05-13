@@ -18,7 +18,7 @@
                 <strong>172.xxx.xxx.0-20</strong> 
                 to identify active hosts in this network.
             </p>
-        <figure>
+        <figure align="center">
             <img src="../img/image10.png" alt="ifconfig" title="Intro" width="583"> 
         </figure>
         </section>
