@@ -157,7 +157,7 @@
             </ul>
         <figure>
             <div align="center">
-                <img src="../img/image6.png" alt="mv" title="mv command" width="300">
+                <img src="../img/image6.png" alt="mv" title="mv command" width="500">
             </div>
         </figure>
             <p>
