@@ -2,7 +2,7 @@
   <h1>Computer Network Security – Lab Environment Project </h1>
 </p>
 
-This project will be carried out using Kali as the attack machine and a virtual LAN (VLAN) designed to closely replicate the target network, and will be divided into two stages: 
+This educational project will be carried out using Kali as the attack machine and a virtual LAN (VLAN) designed to closely replicate the target network, and will be divided into two stages: 
 
 1) Penetration Testing
 2) Defense Strategies
