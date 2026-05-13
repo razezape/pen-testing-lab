@@ -9,7 +9,6 @@
     <body>
         <section>
             <h1 align="center">Reconnaissance</h1>
-        <hr> <!-- Horizontal Separator -->
             <p>
                 First, I examined the network interfaces with root privileges using Linux commands. I identified that my local network IP address is 
                 <strong>192.xxx.xxx.11</strong> 
