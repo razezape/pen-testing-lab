@@ -37,10 +37,10 @@
                 to determine whether a host is active. If a host responds, it is marked as “up”; otherwise, it is considered down or not included in the results.
             </p>
         <figure>
-            <>
+            <div align="center">
                 <img src="../img/image32.png" alt="Scan 1" title="Host #1" width="300">
                 <img src="../img/image13.png" alt="Scan 2" title="Host #2" width="300">
-            </p>
+            </div>
         </figure>
         </section>
 <!---------------------------------------------------------------------------->
