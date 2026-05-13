@@ -215,6 +215,7 @@
         <figure>
             <p align="center">
                 <img src="../img/image22.png" alt="scp" title="scp command" width="455">
+                <br>
                 <img src="../img/image30.png" alt="pdf" title="saturna info" width="455">
             </p>
         </figure>
