@@ -7,7 +7,7 @@ This educational project will be carried out using Kali as the attack machine an
 1) Penetration Testing
 2) Defense Strategies
 
-This secure lab includes 3 VMs:
+This secure lab includes **3 VMs:**
 - Kali Linux attacker machine
 - SaturnaN vulnerable target
 - SaturnaR IDS monitoring machine
