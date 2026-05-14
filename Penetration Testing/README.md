@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <h1 align="center">The PEN Test Report</h1>
+    <h1 align="center">PENTest Report</h1>
 </head>
 <!---------------------------------------------------------------------------->
     <body>
