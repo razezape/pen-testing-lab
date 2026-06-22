@@ -12,7 +12,6 @@
                 <img src="../img2/image8.png" alt="lab" title="Intro" width="583">
             </div>
         </figure>
-<br>
         <section>
             <h1 align="center">PART 1 - The Generic Attack Scenario</h1>
             <p>
@@ -71,6 +70,7 @@
                 At the end, <strong>Wireshark</strong> capture shows that the enumeration attack uses standard SSH communication rather than malformed packets. By repeatedly establishing valid SSH sessions and analyzing the server’s authentication behavior, the tool can infer whether a username exists on the target system.
             </p>
         </section>
+<!---------------------------------------------------------------------------->
         <section>
             <h1 align="center">PART 3 - Configurating Snort Rules</h1>
             <p>
@@ -78,7 +78,7 @@
             </p>
         <figure>
             <div align="center">
-                <img src="../img2/image16.png" alt="Snort ls" title="Snort ls">
+                <img src="../img2/image16.png" alt="Snort ls" title="Snort ls" width="700">
             </div>
         </figure>
             <p>
