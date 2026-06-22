@@ -127,7 +127,6 @@
             <p>
                 <strong>Before</strong> running the exploit:
             </p>
-<br>
         <figure>
                 <img src="../img2/image2.png" alt="Before" title="Before" width="800">
         </figure>
@@ -135,7 +134,6 @@
             <p>
                 <strong>After</strong> running the exploit:
             </p>
-<br>
         <figure>
             <img src="../img2/image3.png" alt="After" title="After" width="800">
             </div>
