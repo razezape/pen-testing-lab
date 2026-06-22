@@ -6,11 +6,13 @@
 </head>
 <!---------------------------------------------------------------------------->
     <body>
+<br>
         <figure>
             <div align="center">
                 <img src="../img2/image8.png" alt="lab" title="Intro" width="583">
             </div>
         </figure>
+<br>
         <section>
             <h1 align="center">PART 1 - The Generic Attack Scenario</h1>
             <p>
@@ -28,19 +30,22 @@
             <h1 align="center">PART 2 - Metasploit and Wireshark</h1>
             <p>
                 We then tested the OpenSSH service using a username enumeration exploit. The vulnerability allows us to discover valid usernames on the target system, which could assist in future authentication attacks. Wireshark was used to capture the network traffic just before and after running the exploit in order to observe the changes in SSH communication and the packets generated during the enumeration process.
-            <p>
+        </p>
+<br>
         <figure>
             <div align="center">
                 <img src="../img2/image9.png" alt="Tools" title="Tools" width="700">
                 <img src="../img2/image10.png" alt="Packets title="Packets" width="700">
             </div>
         </figure>
+<br>
             <p>
                 As we can see from the packet capture, we can say that the execution of the OpenSSH username enumeration exploit generated a sequence of SSH-related packets between the attacking machine <strong>(172.XXX.XXX.10)</strong> and the target host <strong>(172.XXX.XXX.13)</strong>. 
             </p>
             <p>
                 First, we notice that the communication begins with the standard <strong>TCP three-way handshake</strong>, followed by the SSH protocol version exchange <strong>(SSH-2.0-OpenSSH_7.6p1 Ubuntu)</strong>, key exchange initialization messages, and several encrypted packets. This indicates that the client successfully establishes an SSH session before attempting the username validation process. After the authentication attempt is completed, the connection is gracefully closed with <strong>FIN and ACK packets.</strong>
             </p>
+<br>
         <figure>
             <div align="center">
                 <img src="../img2/image11.png" alt="three hand shake" title="three hand shake">
@@ -48,12 +53,14 @@
                 <img src="../img2/image13.png" alt="more connections" title="more connections">
             </div>
         </figure>
+<br>
             <p>
                 We then observe a new <b>TCP handshake</b> and another <b>SSH session</b> being established, indicating that the enumeration tool opens separate connections for successive username validation attempts rather than reusing a single persistent connection.
             </p>
             <p>
                 Furthermore, the capture includes multiple ACK packets, SSH key exchange messages <strong>(Key Exchange Init and New Keys)</strong>, and encrypted traffic exchanged in rapid succession. This pattern suggests that an automated tool is repeatedly establishing SSH sessions <strong>to test different usernames</strong> while appearing as legitimate SSH communication.
             </p>
+<br>
         <figure>
             <div align="center">
                 <img src="../img2/image14.png" alt="Key Exchange" title="Key Exchange">
