@@ -58,6 +58,7 @@
             <div align="center">
                 <img src="../img2/image14.png" alt="Key Exchange" title="Key Exchange">
             </div>
+<br>
         </figure>
             <p>
                 At the end, <strong>Wireshark</strong> capture shows that the enumeration attack uses standard SSH communication rather than malformed packets. By repeatedly establishing valid SSH sessions and analyzing the server’s authentication behavior, the tool can infer whether a username exists on the target system.
