@@ -131,6 +131,7 @@
                 <img src="../img2/image2.png" alt="Before" title="Before" width="800">
         </figure>
 <br>
+<br>
             <p>
                 <strong>After</strong> running the exploit:
             </p>
