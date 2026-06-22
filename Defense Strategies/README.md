@@ -3,7 +3,6 @@
 <html>
 <head>
     <h1 align="center">Defense Strategies</h1>
-    <title>Defense Strategies</title>
 </head>
 <!---------------------------------------------------------------------------->
     <body>
