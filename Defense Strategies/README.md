@@ -6,7 +6,6 @@
 </head>
 <!---------------------------------------------------------------------------->
     <body>
-<br>
         <section>
             <h1 align="center">PART 1 - The Generic Attack Scenario</h1>
             <p>
