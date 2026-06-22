@@ -170,7 +170,9 @@
             </p>
 <br>
         <figure>
-            <img src="../img2/image6.png" alt="OUTPUT Rules" title="OUTPUT Rules" width="800">
+            <div align="center">
+                <img src="../img2/image6.png" alt="OUTPUT Rules" title="OUTPUT Rules" width="800">
+            </div>
         </figure>
 <br>
             <p>
@@ -178,7 +180,9 @@
             </p>
 <br>
         <figure>
-            <img src="../img2/image7.png" alt="Firewall In Action" title="Firewall In Action" width="800">
+            <div align="center">
+                <img src="../img2/image7.png" alt="Firewall In Action" title="Firewall In Action" width="800">
+            </div>
         </figure>
 <br>
             <p>
