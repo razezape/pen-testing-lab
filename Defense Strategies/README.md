@@ -147,7 +147,7 @@
         <figure>
             <div align="center">
                 <img src="../img2/image4.png" alt="SFTP Command" title="SFTP Command" width="800">
-                <img src="../img2/image5.png" alt="Libre Office" title="Libre Office" width="900">
+                <img src="../img2/image5.png" alt="Libre Office" title="Libre Office" width="800">
             </div>
         </figure>
 <br>
