@@ -11,11 +11,13 @@
             <p>
                 The following graphical sketch illustrates a generic attack scenario associated with the selected vulnerability. The vulnerability affects the host <strong>SaturnaN (172.xxx.xxx.13)</strong>, which is running <strong>OpenSSH 7.2p2 Ubuntu 4ubuntu2.1 (protocol 2.0)</strong> and provides SSH services through port 22. Because the SSH service is publicly accessible, attackers may attempt to identify known weaknesses, gather information about the system, and exploit vulnerabilities to gain unauthorized access or compromise the host.
             </p>
+<br>
         <figure>
             <div align="center">
                 <img src="../img2/image8.png" alt="lab" title="Intro" width="583">
             </div>
         </figure>
+<br>
             <p>
                 In this attack scenario, we first performed reconnaissance to identify active hosts and discover open ports on the network. Using <strong>Nmap</strong>, we found that SaturnaN had <strong>port #22</strong> open and was running an SSH service on an outdated Ubuntu operating system. An attacker could use this information to search for known vulnerabilities affecting the unsupported operating system or its services and attempt to exploit them to gain unauthorized access. If successful, the attacker could potentially access sensitive information, execute unauthorized commands, or use the compromised host as a starting point for further attacks within the network.
             </p>
