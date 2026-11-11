@@ -7,7 +7,7 @@
 <!---------------------------------------------------------------------------->
     <body>
         <section>
-            <h1 align="center">PART 1 - The Generic Attack Scenario</h1>
+            <h1 align="center">The Generic Attack Scenario</h1>
             <p>
                 The following graphical sketch illustrates a generic attack scenario associated with the selected vulnerability. The vulnerability affects the host <strong>SaturnaN (172.xxx.xxx.13)</strong>, which is running <strong>OpenSSH 7.2p2 Ubuntu 4ubuntu2.1 (protocol 2.0)</strong> and provides SSH services through port 22. Because the SSH service is publicly accessible, attackers may attempt to identify known weaknesses, gather information about the system, and exploit vulnerabilities to gain unauthorized access or compromise the host.
             </p>
