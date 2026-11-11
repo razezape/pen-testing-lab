@@ -2,7 +2,7 @@
   <h1>Computer Network Security – Lab Environment Project </h1>
 </p>
 
-This educational basic report will introduce; Kali as the attack machine and SaturnaN & R as victim machines. A virtual LAN (VLAN) is designed with these VMs to closely replicate the target network, which will be divided into two stages: 
+This educational basic report will introduce; Kali as the attack machine and SaturnaN & R as victim/monitoring machines. A virtual LAN (VLAN) is designed with these VMs to closely replicate the target network, which will be divided into two stages: 
 
 1) Penetration Testing
 2) Defense Strategies
