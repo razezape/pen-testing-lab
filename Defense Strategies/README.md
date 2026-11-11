@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <h1 align="center">Defense Strategies</h1>
+    <h1 align="center">PART 2 - Defense Strategies</h1>
 </head>
 <!---------------------------------------------------------------------------->
     <body>
@@ -27,7 +27,7 @@
         </section>
 <!---------------------------------------------------------------------------->
         <section>
-            <h1 align="center">PART 2 - Metasploit and Wireshark</h1>
+            <h1 align="center">Metasploit and Wireshark</h1>
             <p>
                 We then tested the OpenSSH service using a username enumeration exploit. The vulnerability allows us to discover valid usernames on the target system, which could assist in future authentication attacks. Wireshark was used to capture the network traffic just before and after running the exploit in order to observe the changes in SSH communication and the packets generated during the enumeration process.
         </p>
@@ -73,7 +73,7 @@
         </section>
 <!---------------------------------------------------------------------------->
         <section>
-            <h1 align="center">PART 3 - Configurating Snort Rules</h1>
+            <h1 align="center">Configurating Snort Rules</h1>
             <p>
                 To defend against this scenario, Snort was configured to monitor network traffic and generate alerts when suspicious SSH activity is detected. In addition, iptables rules were implemented to restrict unauthorized access attempts and reduce the attack surface exposed by the SSH service.  Before using it, we first had to configure it properly. As part of the setup process, we created a directory to store Snort alert logs using the following path and commands:
             </p>
@@ -113,7 +113,7 @@
         </section>
 <!---------------------------------------------------------------------------->
         <section>
-            <h1 align="center">PART 4 - Intrusion Detection Mode</h1>
+            <h1 align="center">Intrusion Detection Mode</h1>
             <p>
                 Snort was deployed on SaturnaR to monitor the network traffic between <strong>the attacker machine (Kali Linux)</strong> and <strong>the target host (SaturnaN)</strong>. Once the SSH username enumeration attack was performed against 172.XXX.XXX.13, Snort detected the resulting SSH communication and generated alerts. The screenshot shows alerts related to the SSH client and OpenSSH banners, indicating that the custom rules worked as intended. These results demonstrate that Snort can successfully detect and report SSH activity generated during a username enumeration attack.
             </p>
@@ -165,7 +165,7 @@
         </section>
 <!---------------------------------------------------------------------------->
         <section>
-            <h1 align="center">PART 5 - IPTables (or Firewall)</h1>
+            <h1 align="center">IPTables (or Firewall)</h1>
             <p>
                 To mitigate the SSH username enumeration attack, IPTables (firewall) rules were configured to restrict repeated connection attempts to the SSH service. For this demonstration, the rules were implemented on the Kali machine solely for testing purposes and to illustrate how such filtering could mitigate the attack. In a real-world environment, these rules would typically be deployed on the target host itself or on a dedicated firewall or gateway device positioned in front of the target system, where they can block malicious traffic before it reaches the SSH service.
             </p>
