@@ -38,7 +38,7 @@ Initial reconnaissance was performed using:
 ```bash
 sudo ifconfig - :)
 ```
-<br>
+---
 <h3> © 2026. All Rights Reserved. </h3>
   <p> 
     All articles, photographs, screenshots, and other original content
