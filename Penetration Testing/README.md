@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
     <h1 align="center">PART 1 - PEN Testing</h1>
@@ -9,7 +8,7 @@
         <section>
             <h1 align="center">Reconnaissance</h1>
             <p>
-                First, I examined the network interfaces with root privileges using Linux commands. I identified that my local network IP address is 
+                First, we examined the network interfaces with root privileges using Linux commands. I identified that my local network IP address is 
                 <strong>192.xxx.xxx.11</strong> 
                 (eth0), while the IP address connected to the subnet lab network is 
                 <strong>172.xxx.xxx.11</strong> 
