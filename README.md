@@ -39,11 +39,9 @@ Initial reconnaissance was performed using:
 sudo ifconfig - :)
 ```
 
-<footer>
-  <p>© 2026. All Rights Reserved.</p>
+<h3>© 2026. All Rights Reserved.</h3>
   <p>
     All articles, photographs, screenshots, and other original content
     on this website are protected by copyright. No reproduction,
     redistribution, or commercial use without prior written permission.
   </p>
-</footer>
