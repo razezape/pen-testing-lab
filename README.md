@@ -37,3 +37,13 @@ Initial reconnaissance was performed using:
 
 ```bash
 sudo ifconfig - :)
+```
+
+<footer>
+  <p>© 2026. All Rights Reserved.</p>
+  <p>
+    All articles, photographs, screenshots, and other original content
+    on this website are protected by copyright. No reproduction,
+    redistribution, or commercial use without prior written permission.
+  </p>
+</footer>
