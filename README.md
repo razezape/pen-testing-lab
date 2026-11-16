@@ -28,11 +28,15 @@ This secure lab includes **3 VMs:**
 
 ---
 
-Licencia
+License
 
 Copyright © 2026 Razezape. All Rights Reserved.
 
-Este documento y su contenido se comparten con fines educativos. Queda prohibida su reproducción, distribución o modificación, total o parcial, sin autorización previa y por escrito del autor.
+This repository and its contents, including but not limited to text, images, analysis, and documentation, are the exclusive intellectual property of the author and are provided for educational and informational purposes only.
+
+No part of this work may be copied, reproduced, distributed, modified, or used for commercial purposes, in whole or in part, without the prior written permission of the author.
+
+Unauthorized use of this material is strictly prohibited.
 
 ---
 
