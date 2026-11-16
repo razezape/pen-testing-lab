@@ -1,7 +1,9 @@
 
 # Computer Network Security – Lab Environment Project </h1>
-
-
+[![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)](https://www.kali.org/)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
+[![Snort](https://img.shields.io/badge/Snort-E5002B?style=for-the-badge&logoColor=white)](https://www.snort.org/)
+[![iptables](https://img.shields.io/badge/iptables-F59E0B?style=for-the-badge&logo=linux&logoColor=white)](https://www.netfilter.org/projects/iptables/)
 This educational basic report will introduce; Kali as the attack machine and SaturnaN & R as victim/monitoring machines. A virtual LAN (VLAN) is designed with these VMs to closely replicate the target network, which will be divided into two stages: 
 
 1) Penetration Testing
