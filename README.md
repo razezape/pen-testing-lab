@@ -3,6 +3,8 @@
 
 This educational basic report will introduce; Kali as the attack machine and SaturnaN & R as victim/monitoring machines. A virtual LAN (VLAN) is designed with these VMs to closely replicate the target network, which will be divided into two stages: 
 
+1) Penetration Testing
+2) Defense Strategies
 <p align="center">
   <a href="https://www.kali.org/" target="_blank">
     <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux">
@@ -17,21 +19,21 @@ This educational basic report will introduce; Kali as the attack machine and Sat
     <img src="https://img.shields.io/badge/iptables-F59E0B?style=for-the-badge&logo=linux&logoColor=white" alt="iptables">
   </a>
 </p>
-
-1) Penetration Testing
-2) Defense Strategies
-
 This secure lab includes **3 VMs:**
 - Kali Linux attacker machine
 - SaturnaN vulnerable target
 - SaturnaR IDS monitoring machine
+
 ---
+
 Licencia
 
 Copyright © 2026 Razezape. All Rights Reserved.
 
 Este documento y su contenido se comparten con fines educativos. Queda prohibida su reproducción, distribución o modificación, total o parcial, sin autorización previa y por escrito del autor.
+
 ---
+
 # 🧠 Topics Covered
 - Performed a cybersecurity assessment on a simulated company network.
 - Conducted network scanning and service enumeration.
