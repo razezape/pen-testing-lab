@@ -1,6 +1,6 @@
-<p align="center">
-  <h1>Computer Network Security – Lab Environment Project </h1>
-</p>
+
+# Computer Network Security – Lab Environment Project </h1>
+
 
 This educational basic report will introduce; Kali as the attack machine and SaturnaN & R as victim/monitoring machines. A virtual LAN (VLAN) is designed with these VMs to closely replicate the target network, which will be divided into two stages: 
 
