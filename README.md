@@ -8,16 +8,16 @@ This educational basic report will introduce; Kali as the attack machine and Sat
 
 <p align="center">
   <a href="https://www.kali.org/" target="_blank">
-    <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux">
+    <img src="https://img.shields.io/badge/-Kali_Linux-S?style=for-the-badge&logo=kalilinux&labelColor=%23000000&color=%23557C94" alt="Kali Linux">
   </a>
   <a href="https://ubuntu.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu">
+    <img src="https://img.shields.io/badge/-Ubuntu-S?style=for-the-badge&logo=ubuntu&labelColor=%23000000&color=%23E95420" alt="Ubuntu">
   </a>
   <a href="https://www.snort.org/" target="_blank">
-    <img src="https://img.shields.io/badge/Snort-E5002B?style=for-the-badge&logoColor=white" alt="Snort">
+    <img src="https://img.shields.io/badge/-Snort-S?style=for-the-badge&logo=gnubash&labelColor=%23000000&color=%23E5002B" alt="Snort">
   </a>
   <a href="https://www.netfilter.org/projects/iptables/" target="_blank">
-    <img src="https://img.shields.io/badge/iptables-F59E0B?style=for-the-badge&logo=linux&logoColor=white" alt="iptables">
+    <img src="https://img.shields.io/badge/-iptables-S?style=for-the-badge&logo=linux&labelColor=%23000000&color=%23F59E0B" alt="iptables">
   </a>
 </p>
 
