@@ -7,16 +7,16 @@ This educational basic report will introduce; Kali as the attack machine and Sat
 2) Defense Strategies
 
 <p align="center">
-  <a href="https://www.kali.org/" target="_blank">
+  <a>
     <img src="https://img.shields.io/badge/-Kali_Linux-S?style=for-the-badge&logo=kalilinux&labelColor=%23000000&color=%231E40AF" alt="Kali Linux">
   </a>
-  <a href="https://ubuntu.com/" target="_blank">
+  <a>
     <img src="https://img.shields.io/badge/-Ubuntu-S?style=for-the-badge&logo=ubuntu&labelColor=%23000000&color=%23E95420" alt="Ubuntu">
   </a>
-  <a href="https://www.snort.org/" target="_blank">
+  <a>
     <img src="https://img.shields.io/badge/-Snort-S?style=for-the-badge&logo=gnubash&labelColor=%23000000&color=%23E5002B" alt="Snort">
   </a>
-  <a href="https://www.netfilter.org/projects/iptables/" target="_blank">
+  <a>
     <img src="https://img.shields.io/badge/-iptables-S?style=for-the-badge&logo=linux&labelColor=%23000000&color=%23F59E0B" alt="iptables">
   </a>
 </p>
