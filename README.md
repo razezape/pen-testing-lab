@@ -5,7 +5,7 @@ This educational basic report will introduce; Kali as the attack machine and Sat
 
 1) Penetration Testing
 2) Defense Strategies
-3) 
+
 <p align="center">
   <a href="https://www.kali.org/" target="_blank">
     <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux">
