@@ -8,7 +8,7 @@ This educational basic report will introduce; Kali as the attack machine and Sat
 
 <p align="center">
   <a href="https://www.kali.org/" target="_blank">
-    <img src="https://img.shields.io/badge/-Kali_Linux-S?style=for-the-badge&logo=kalilinux&labelColor=%233B82F6&color=%233B82F6" alt="Kali Linux">
+    <img src="https://img.shields.io/badge/-Kali_Linux-S?style=for-the-badge&logo=kalilinux&labelColor=%23000000&color=%233B82F6" alt="Kali Linux">
   </a>
   <a href="https://ubuntu.com/" target="_blank">
     <img src="https://img.shields.io/badge/-Ubuntu-S?style=for-the-badge&logo=ubuntu&labelColor=%23000000&color=%23E95420" alt="Ubuntu">
