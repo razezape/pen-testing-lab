@@ -25,7 +25,13 @@ This secure lab includes **3 VMs:**
 - Kali Linux attacker machine
 - SaturnaN vulnerable target
 - SaturnaR IDS monitoring machine
+---
+Licencia
 
+Copyright © 2026 Razezape. All Rights Reserved.
+
+Este documento y su contenido se comparten con fines educativos. Queda prohibida su reproducción, distribución o modificación, total o parcial, sin autorización previa y por escrito del autor.
+---
 # 🧠 Topics Covered
 - Performed a cybersecurity assessment on a simulated company network.
 - Conducted network scanning and service enumeration.
@@ -52,10 +58,3 @@ Initial reconnaissance was performed using:
 ```bash
 sudo ifconfig - :)
 ```
----
-<h3> © 2026. All Rights Reserved. </h3>
-  <p> 
-    All articles, photographs, screenshots, and other original content
-    on this website are protected by copyright. No reproduction,
-    redistribution, or commercial use without prior written permission.
-  </p>
